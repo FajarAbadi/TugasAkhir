@@ -41,6 +41,9 @@ if (!empty($this->session->flashdata('info'))) { ?>
                         <td><?php $row->jenkel; ?></td>
                         <td><?php $row->alamat; ?></td>
                         <td><?php $row->no_hp; ?></td>
+                        <td>
+                            <a href="<?php echo base_url(); ?>anggota/edit/<?= $row->id_anggota ?>" class="btn btn-success btn-xs">Edit</a>
+                        </td>
                     </tr>
                 <?php }
                 ?>
