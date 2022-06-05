@@ -20,3 +20,6 @@
                     <input type="text" name="nama_anggota" class="form-control" placeholder="Nama Anggota">
                 </div>
             </div>
+        </div>
+    </form>
+</div>
