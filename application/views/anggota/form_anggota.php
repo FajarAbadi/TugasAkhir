@@ -48,7 +48,7 @@
         </div>
 
         <div class="box-footer">
-            <a href="" class="btn btn-warning">Cancel</a>
+            <a href="<?php echo base_url(); ?>anggota" class="btn btn-warning">Cancel</a>
             <button type="submit" class="btn btn-primary">Simpan</button>
         </div>
     </form>
