@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputPassword3" class="col-sm-2 control-label">Nama Anggota</label>
+                <label for="inputPassword3" class="col-sm-2 control-label">No HP</label>
 
                 <div class="col-sm-10">
                     <input type="text" name="no_hp" class="form-control" placeholder="Nama Anggota">
