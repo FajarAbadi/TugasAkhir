@@ -32,10 +32,10 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputPassword3" class="col-sm-2 control-label">Nama Anggota</label>
+                <label for="inputPassword3" class="col-sm-2 control-label">Alamat</label>
 
                 <div class="col-sm-10">
-                    <input type="text" name="nama_anggota" class="form-control" placeholder="Nama Anggota">
+                    <textarea name="alamat" class="form-control" cols="30" rows="10"></textarea>
                 </div>
             </div>
             <div class="form-group">
