@@ -10,7 +10,7 @@
                 <label for="inputEmail3" class="col-sm-2 control-label">Id Anggota</label>
 
                 <div class="col-sm-10">
-                    <input type="text" name="id_anggota" class="form-control" readonly>
+                    <input type="text" name="id_anggota" value="<?= $id_anggota; ?>" class="form-control" readonly>
                 </div>
             </div>
             <div class="form-group">
