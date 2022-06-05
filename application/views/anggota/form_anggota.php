@@ -42,7 +42,7 @@
                 <label for="inputPassword3" class="col-sm-2 control-label">Nama Anggota</label>
 
                 <div class="col-sm-10">
-                    <input type="text" name="nama_anggota" class="form-control" placeholder="Nama Anggota">
+                    <input type="text" name="no_hp" class="form-control" placeholder="Nama Anggota">
                 </div>
             </div>
         </div>
