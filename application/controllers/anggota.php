@@ -19,7 +19,7 @@ class Anggota extends CI_Controller
     {
         $isi['content']     = 'anggota/form_anggota';
         $isi['judul']       = 'Form Tambah Anggota';
-        $isi['id_anggota']  =
-            $this->load->view('v_dashboard', $isi);
+        $isi['id_anggota']  = $this->m_anggota->id_anggota();
+        $this->load->view('v_dashboard', $isi);
     }
 }
