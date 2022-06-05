@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-mid-12">
-        <a href="<?php base_url()?>anggota/tambah anggota" class="btn btn-succes">
+        <a href="<?php base_url()?>anggota/tambah_anggota" class="btn btn-succes">
         <i class="fa fa-plus"></i> Tambah Anggota</a>
     </div>
 </div>
