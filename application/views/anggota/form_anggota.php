@@ -7,7 +7,7 @@
     <form class="form-horizontal">
         <div class="box-body">
             <div class="form-group">
-                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                <label for="inputEmail3" class="col-sm-2 control-label">Id Anggota</label>
 
                 <div class="col-sm-10">
                     <input type="text" name="id_anggota" class="form-control" readonly>
