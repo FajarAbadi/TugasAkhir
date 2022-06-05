@@ -37,6 +37,10 @@ if (!empty($this->session->flashdata('info'))) { ?>
                 foreach ($data as $row) { ?>
                     <tr>
                         <td><?php $row->id_anggota; ?></td>
+                        <td><?php $row->nama_anggota; ?></td>
+                        <td><?php $row->jenkel; ?></td>
+                        <td><?php $row->alamat; ?></td>
+                        <td><?php $row->no_hp; ?></td>
                     </tr>
                 <?php }
                 ?>
