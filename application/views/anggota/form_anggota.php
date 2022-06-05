@@ -35,7 +35,7 @@
                 <label for="inputPassword3" class="col-sm-2 control-label">Alamat</label>
 
                 <div class="col-sm-10">
-                    <textarea name="alamat" class="form-control" cols="30" rows="10"></textarea>
+                    <textarea name="alamat" class="form-control" cols="30" rows="5"></textarea>
                 </div>
             </div>
             <div class="form-group">
