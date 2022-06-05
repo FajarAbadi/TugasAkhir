@@ -4,7 +4,7 @@
     </div>
     <!-- /.box-header -->
     <!-- form start -->
-    <form class="form-horizontal">
+    <form method="post" action="<?php echo base_url(); ?>anggota/simpan" class="form-horizontal">
         <div class="box-body">
             <div class="form-group">
                 <label for="inputEmail3" class="col-sm-2 control-label">Id Anggota</label>
