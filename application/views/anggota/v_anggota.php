@@ -33,6 +33,13 @@ if (!empty($this->session->flashdata('info'))) { ?>
                 </tr>
             </thead>
             <tbody>
+                <?php
+                foreach ($data as $row) { ?>
+                    <tr>
+                        <td><?php $row->id_anggota; ?></td>
+                    </tr>
+                <?php }
+                ?>
             </tbody>
         </table>
     </div>
