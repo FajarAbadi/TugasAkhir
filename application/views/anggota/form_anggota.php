@@ -42,9 +42,14 @@
                 <label for="inputPassword3" class="col-sm-2 control-label">No HP</label>
 
                 <div class="col-sm-10">
-                    <input type="text" name="no_hp" class="form-control" placeholder="Nama Anggota">
+                    <input type="text" name="no_hp" class="form-control" placeholder="No. HP">
                 </div>
             </div>
+        </div>
+
+        <div class="box-footer">
+            <a href="" class="btn btn-warning">Cancel</a>
+            <button type="submit" class="btn btn-primary">Simpan</button>
         </div>
     </form>
 </div>
