@@ -43,7 +43,7 @@ if (!empty($this->session->flashdata('info'))) { ?>
                         <td><?php $row->no_hp; ?></td>
                         <td>
                             <a href="<?php echo base_url(); ?>anggota/edit/<?php $row->id_anggota ?>" class="btn btn-success btn-xs">Edit</a>
-                            <a href="<?php echo base_url(); ?>anggoata/hapus/<?php $row->id_anggota ?>" class="btn btn-danger btn-xs" onclick="return confirm('Yakin Mau Menghapus?');"></a>
+                            <a href="<?php echo base_url(); ?>anggoata/hapus/<?php $row->id_anggota ?>" class="btn btn-danger btn-xs" onclick="return confirm('Yakin Mau Menghapus?');">Hapus</a>
                         </td>
                     </tr>
                 <?php }
