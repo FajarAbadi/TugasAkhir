@@ -44,7 +44,7 @@ class Anggota extends CI_Controller
     {
         $isi['content']     = 'anggota/edit_anggota';
         $isi['judul']       = 'Form Edit Anggota';
-        $isi['data']  = $this->m_anggota->edit($id);
+        $isi['data']  = $this->m_anggota->edit();
         $this->load->view('v_dashboard', $isi);
     }
 }
