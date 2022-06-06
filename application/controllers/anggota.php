@@ -40,7 +40,7 @@ class Anggota extends CI_Controller
         }
     }
 
-    public function edit($id)
+    public function edit()
     {
         $isi['content']     = 'anggota/edit_anggota';
         $isi['judul']       = 'Form Edit Anggota';
