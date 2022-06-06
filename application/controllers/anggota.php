@@ -39,4 +39,12 @@ class Anggota extends CI_Controller
             redirect('anggota');
         }
     }
+
+    public function edit($id)
+    {
+        $isi['content']     = 'anggota/edit_anggota';
+        $isi['judul']       = 'Form Edit Anggota';
+        $isi['data']  = $this->m_anggota->edit($id);
+        $this->load->view('v_dashboard', $isi);
+    }
 }
