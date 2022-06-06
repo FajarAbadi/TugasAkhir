@@ -23,5 +23,7 @@ class M_anggota extends CI_Model
 
     public function edit($id)
     {
+        $this->db->where('id_anggota', $id);
+        return $this->db->get('anggota')->row->array();
     }
 }
