@@ -20,4 +20,8 @@ class M_anggota extends CI_Model
         $kodejadi = "AG" . $kodemax;
         return $kodejadi;
     }
+
+    public function edit($id)
+    {
+    }
 }
