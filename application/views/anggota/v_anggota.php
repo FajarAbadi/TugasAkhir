@@ -34,19 +34,30 @@ if (!empty($this->session->flashdata('info'))) { ?>
             </thead>
             <tbody>
                 <?php
-                foreach ($data as $row) { ?>
+                include "../db/koneksi.php";
+                $no = 1;
+                $sql = $koneksi->query("SELECT * FROM anggota");
+                while ($data = $sql->fetch_assoc()) {
+
+                ?>
+
                     <tr>
-                        <td><?php $row->id_anggota; ?></td>
-                        <td><?php $row->nama_anggota; ?></td>
-                        <td><?php $row->jenkel; ?></td>
-                        <td><?php $row->alamat; ?></td>
-                        <td><?php $row->no_hp; ?></td>
+                        <td><?php echo $no++; ?></td>
+                        <td><?php echo $data['id_anggota']; ?></td>
+                        <td><?php echo $data['nama_angggota']; ?></td>
+                        <td><?php echo $data['jenkel']; ?></td>
+                        <td><?php echo $data['alamat']; ?></td>
+                        <td><?php echo $data['no_hp']; ?></td>
                         <td>
-                            <a href="<?php echo base_url(); ?>anggota/edit/<?= $row->id_anggota ?>" class="btn btn-success btn-xs">Edit</a>
+                            <a href="" class="btn btn-success">Edit</a>
+                            <a href="" class="btn btn-danger">Delete</a>
                         </td>
                     </tr>
-                <?php }
+
+                <?php
+                }
                 ?>
+
             </tbody>
         </table>
     </div>
